@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------- Header section ---------- */
+
+.header-div{
+    background-color: grey;
+}
+.head-nav-flex{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+nav > ul a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: large;
+    /* color: white; */
+}
+
+nav li:hover{
+    display: block;
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* Header Body  */
+
+.header-join-down{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.header-body{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Header Img Decoration  */
+
+/* .header-img-grid{
+    display: grid;
+} */
+
+.header-img-grid img{
+    position: relative;
+}
+
+.header-img-1{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    background-color: aqua;
+    height: auto;
+    width: auto;
+
+}
+
+.header-img-2{
+    position: absolute;
+    bottom: 30%;
+    background-color: aqua;
+    height: 50px;
+    width: auto;
+}
+
+/* ----------- Shared Class ------------ */
+
+/* .div-title{
+    font-size: ;
+    font-weight: ;
+    margin-bottom: ;
+}
+
+.short-des{
+    font-size: ;
+    font-weight: ;
+    margin-bottom: ;
+}
+
+.btn-font{
+
+}
+
+.join-now{
+
+} */
+
+
+/* ------- Change Your Habits Section -------- */
+
+.habit-img-div{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 400px);
+}
+
+/* --------- Run an Extra Mile Easily ---------  */
+
+
+.run-div-container{
+    display: flex;
+    gap: 30px;
+    height: 400px;
+}
+
+.run-img img{
+    height: 400px; 
+    width: 500px;
+}
+
+/* --------Trainings and Exercises-------- */
+
+.train-img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.exercise-img-1{
+    background-image: url("../images/exercise1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exercise-img-2{
+    background-image: url("../images/exercise2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exercise-img-3{
+    background-image: url("../images/exercise3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exercise-img-4{
+    background-image: url("../images/exercise4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exercise-img-5{
+    background-image: url("../images/exercise5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exercise-img-6{
+    background-image: url("../images/exercise6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------------ BMI Calculator ------------  */
+
+
+
+
+/* ---------- Meet our team  ----------- */
+
+/* .team-style{} */
+
+.team-img-div{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    height: 300px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+    background-color: grey;
+}
+
+.team-1{
+    background-image: url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* height: max-content; */
+}
+.team-2{
+    background-image: url("../images/trainer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-3{
+    background-image: url("../images/trainer3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-4{
+    background-image: url("../images/trainer4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-5{
+    background-image: url("../images/trainer5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-6{
+    background-image: url("../images/trainer6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ---------- Footer ---------------  */
+
+/* .get-ul ul */
+
+.footer-div-container{
+    display: grid;
+    gap: 120px;
+    grid-template-columns: repeat(3, 400px 200px 200px);
+    justify-content: space-around;
+}
+.reserved{
+    text-align: center;
+}
+
+
+
+
+/* ================== Small Device ================= */
+
