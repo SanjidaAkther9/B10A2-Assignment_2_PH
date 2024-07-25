@@ -313,6 +313,87 @@ nav li:hover{
 
 /* ------------ BMI Calculator ------------  */
 
+.bmi-div-container{
+    width: 1060px;
+}
+
+.bmi-intro{
+    margin-top: 78px;
+    margin-bottom: 88px;
+    width: 671px;
+}
+.bmi-chart-container{
+    display: flex;
+    gap: 175px;
+    justify-content: left;
+    align-items: center;
+}
+
+.bmi-title1{
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 52px;
+}
+
+table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+th, tr, td{
+    border: 1px solid grey;
+    padding: 15px 15px;
+    text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-title2{
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom:14px ;
+}
+
+.bmi-cal-form{
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-bottom: 34px;
+}
+
+.bmi-cal-form input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border: 1px solid none;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bmi-cal-form select{
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    border: 1px solid none;
+    color: rgba(255, 255, 255, 0.5) ;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.bmi-cal-form select option{
+    background-color: black;
+}
+.bmi-cal{
+    margin-top: 49px;
+    width: 577px;
+    margin-bottom: 52px;
+}
+#box1{
+    grid-column: span 2;
+    height: 65px;
+}
 
 
 

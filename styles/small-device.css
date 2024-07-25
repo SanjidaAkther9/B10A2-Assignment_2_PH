@@ -73,6 +73,26 @@
     }
 
 
+    /* ====== BMI Calculate ===== */
+    .bmi-div-container{
+        width: 90%;
+        justify-items: left;
+    }
+
+    .bmi-chart-container{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: left;
+    }
+    .bmi-cal{
+        width: 90%;
+    }
+    .bmi-cal-form{
+        grid-template-columns: repeat(2, 50%);
+        gap: 12px;
+    }
+
+
     /* ======= MEET TEAM ========== */
 
     .team-div-container{
