@@ -1,39 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+    /* max-width: 1440px; */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Inter", sans-serif;
+}
+
+/* ----------- Shared Class ------------ */
+
+.div-title{
+    font-size:3rem ;
+    font-weight: 900 ;
+    margin-bottom: 14px;
+}
+
+.short-des{
+    font-size: 1rem ;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.short-des2{
+    font-size: 0.87rem ;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-font{
+
+
+}
+
+.join-now{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+}
+
+.margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.col-red{
+    color: rgb(230, 83, 60);;
+}
+
+.col-ash{
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
 /* ---------- Header section ---------- */
 
 .header-div{
-    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 57px;
 }
 .head-nav-flex{
     display: flex;
-    gap: 20px;
+    gap: 463px;
     justify-content: space-between;
+    max-width: 1060px;
+    margin-top: 57px;
+    padding: 8px 20px;
+}
+
+.head-title-style{
+    font-size: 2.25rem ;
+    font-weight: 600;
+    
 }
 
 nav ul{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    border: 1px solid grey;
-    border-radius: 20px;
-}
-nav > ul a{
-    text-decoration: none;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
     padding: 5px;
-    font-size: large;
-    /* color: white; */
+    
+}
+nav > ul > li  a{
+    text-decoration: none;
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem ;
+    font-weight: 800;
 }
 
 nav li:hover{
     display: block;
-    background-color: red;
-    border-radius: 10px;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
 }
+
+
 
 /* Header Body  */
 
@@ -41,11 +116,40 @@ nav li:hover{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-bottom: 76px;
 }
 .header-body{
     display: flex;
-    gap: 20px;
+    gap: 164px;
     justify-content: space-between;
+    align-items: center;
+    width: 1060px;
+}
+.header-left{
+    width: 600px;
+    align-items: center;
+    /* margin-top: 62px; */
+}
+.header-title{
+    font-size: 4.475rem;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.header-title-span{
+    font-weight: 300;
+    font-style: italic;
+}
+.header-des{
+    margin-bottom: 28px;
+}
+.btn-down{
+    border-radius: 42px;
+    background:transparent;
+    padding: 16px 40px;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 /* Header Img Decoration  */
@@ -55,56 +159,78 @@ nav li:hover{
 } */
 
 .header-img-grid img{
-    position: relative;
+    margin-top: 0%;
+    
 }
 
 .header-img-1{
-    position: absolute;
-    top: 25%;
-    right: 15%;
-    background-color: aqua;
-    height: auto;
-    width: auto;
+    margin-top: -1163px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 12rem;
+    height: 6.125rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 
 }
 
 .header-img-2{
-    position: absolute;
-    bottom: 30%;
-    background-color: aqua;
-    height: 50px;
-    width: auto;
+    margin-bottom: -63px;
+    margin-left: -113px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 12rem;
+    height: 6.125rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-/* ----------- Shared Class ------------ */
 
-/* .div-title{
-    font-size: ;
-    font-weight: ;
-    margin-bottom: ;
-}
-
-.short-des{
-    font-size: ;
-    font-weight: ;
-    margin-bottom: ;
-}
-
-.btn-font{
-
-}
-
-.join-now{
-
-} */
 
 
 /* ------- Change Your Habits Section -------- */
+.change-div-container{
+    margin-top: 100px;
+    width: 1044px;
+}
+
+.change-top{
+    /* width: 617px; */
+    margin-bottom: 58px;
+    text-align: center;
+}
 
 .habit-img-div{
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4, 400px);
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.one-img{
+    width: 231px;
+    height: 274px;
+}
+.one-img img{
+    padding: 0px auto 30px auto;
+    border-radius: 100%;
+}
+
+.img-title{
+    font-size:1.125rem ;
+    font-weight: 600 ;
+    margin-bottom: 6px;
 }
 
 /* --------- Run an Extra Mile Easily ---------  */
@@ -112,13 +238,32 @@ nav li:hover{
 
 .run-div-container{
     display: flex;
-    gap: 30px;
-    height: 400px;
+    gap: 165px;
+    justify-content: space-between;
+    /* height: 400px; */
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 100px;
+    width: 1060px;
+    border-radius: 18px;
+}
+.run-left{
+    /* width: 443px; */
+    padding: 41px 0px 40px 54px;
+    align-items: center;
+}
+
+.run-img{
+    padding: 30px 32px 29px 0px;
+}
+
+.run-des-margin{
+    margin-bottom: 34px;
 }
 
 .run-img img{
-    height: 400px; 
-    width: 500px;
+    height: 100%; 
+    width: 366px;
+    border-radius: 18px;
 }
 
 /* --------Trainings and Exercises-------- */
@@ -175,46 +320,79 @@ nav li:hover{
 
 /* .team-style{} */
 
+.team-div-container{
+    margin-top: 88px;
+    width: 1060px;
+}
+.team-title-div{
+    text-align: center;
+    margin-bottom: 78px;
+}
+
 .team-img-div{
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    height: 300px;
-    column-gap: 20px;
-    row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 20px;
-    background-color: grey;
+    background: rgba(255, 255, 255, 0.3);
+    margin-bottom: 100px;
+    border-radius: 18px;
+}
+.team-style{
+    height: 273px;
+    width: 326px;  
+}
+
+.team-title{
+    font-size: 1.125 rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 190px;
+    margin-left: 10px;
+}
+.team-intro{
+    font-size: 0.879rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 10px;
 }
 
 .team-1{
     background-image: url("../images/trainer1.png");
     background-repeat: no-repeat;
     background-size:cover;
+    border-radius: 18px;
     /* height: max-content; */
 }
 .team-2{
     background-image: url("../images/trainer2.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 18px;
 }
 .team-3{
     background-image: url("../images/trainer3.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 18px;
 }
 .team-4{
     background-image: url("../images/trainer4.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 18px;
 }
 .team-5{
     background-image: url("../images/trainer5.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 18px;
 }
 .team-6{
     background-image: url("../images/trainer6.png");
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 18px;
 }
 
 

@@ -1,6 +1,92 @@
 /* ================== Small Device ================= */
 
 @media  screen and (max-width: 576px) {
+
+    /* .body{
+        width: 100%
+    } */
+
+    .head-nav-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    .header-body{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .header-left{
+        width: 90%;
+    }
+    .habit-img-div{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* ===== Change Habits ======  */
+
+    .change-div-container{
+        margin-top: 100px;
+        width: 90%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    .habit-img-div{
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+     /* ===== Run ====== */
+
+     .run-div-container{
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+
+    }
+    /* .run-img{
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .team-title-div{
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .run-img img{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+    /* ======= MEET TEAM ========== */
+
+    .team-div-container{
+        width: 90%;
+    }
+
+    .team-img-div{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+    }
+    .team-style{
+        height: 100%;
+        width: 100%;  
+    }
     
     
 }
