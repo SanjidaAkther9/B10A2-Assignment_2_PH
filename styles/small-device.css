@@ -56,12 +56,17 @@
         flex-direction: column;
         gap: 10px;
         width: 90%;
-
     }
-    /* .run-img{
-        margin-left: auto;
-        margin-right: auto;
-    } */
+    .run-left{
+        padding: 41px 20px 20px 30px;
+        align-items: center;
+    }
+    .join-small{
+        width: 90%;
+    }
+    .run-div-container{
+        margin-bottom: 0px;
+    }
 
     .team-title-div{
        margin-left: auto;
@@ -78,11 +83,16 @@
         width: 90%;
         justify-items: left;
     }
+    .bmi-intro{
+        margin-bottom: 20px;
+        width: 90%;
+    }
 
     .bmi-chart-container{
         flex-direction: column;
         gap: 20px;
         justify-content: left;
+        padding-top: 20px;
     }
     .bmi-cal{
         width: 90%;
@@ -106,6 +116,32 @@
     .team-style{
         height: 100%;
         width: 100%;  
+    }
+
+    /* ======= Footer ======= */
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-div-container{
+        gap: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 15px;
+        width: 90%;
+    }
+    
+    .sub-div-footer{
+        gap: 15px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-title{
+        margin-top: 6px ;
+    }
+    .get-title{
+        margin-top: 20px ;
+    }
+    hr{
+        width: 80%;
     }
     
     

@@ -34,11 +34,6 @@ body{
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* .btn-font{
-
-
-} */
-
 .join-now{
     border-radius: 42px;
     background: rgb(230, 83, 60);
@@ -240,7 +235,6 @@ nav li:hover{
     display: flex;
     gap: 165px;
     justify-content: space-between;
-    /* height: 400px; */
     background: rgba(255, 255, 255, 0.1);
     margin-bottom: 100px;
     width: 1060px;
@@ -327,6 +321,7 @@ nav li:hover{
     gap: 175px;
     justify-content: left;
     align-items: center;
+    padding-top: 52px;
 }
 
 .bmi-title1{
@@ -481,16 +476,62 @@ td{
 
 /* .get-ul ul */
 
+.footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 88px;
+    margin-bottom: 0px;
+}
+
 .footer-div-container{
     display: grid;
-    gap: 120px;
-    grid-template-columns: repeat(3, 400px 200px 200px);
-    justify-content: space-around;
+    gap: 102px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 39px;
+    width: 1060px;
+}
+
+.sub-div-footer{
+    display: grid;
+    gap: 112px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-title{
+    margin-top: 66px ;
+    font-size: 4.8125rem;
+    font-weight: 800px;
+    color: rgb(230, 83, 60);
+    margin-bottom: 20px;
+}
+
+.get-title{
+    margin-top: 66px ;
+    font-size: 2rem;
+    font-weight: 700px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 39px;
+}
+
+.get-ul ul li {
+    font-size: 1.4375rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+hr{
+    width: 1060px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .reserved{
     text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.125rem;
+    font-weight: 400;
 }
-
+.footer-reserved{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
 
 
 
