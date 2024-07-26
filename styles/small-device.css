@@ -4,14 +4,18 @@
 
     .head-nav-flex{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
         width: 80%;
         margin-bottom: 30px;
     }
-    nav {
+    nav > ul > li {
         display: none;
+    }
+    .menubar{
+        visibility: visible;
     }
     .header-body{
         display: flex;
@@ -47,7 +51,7 @@
      .run-div-container{
         flex-direction: column;
         gap: 10px;
-        width: 90%;
+        width: 100%;
     }
     .run-left{
         padding: 41px 20px 20px 30px;
@@ -69,13 +73,39 @@
         margin-left: 10px;
     }
 
+    /* ======== Offered Services ===========  */
+    .offer-intro{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .offer-card-container{
+        width: 100%;
+        gap: 0px;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .offer-card{
+        width: 60%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .offer-card img{
+        width: 80%;
+        height: 40%;
+    }
+
 
     /* ====== BMI Calculate ===== */
     .bmi-div-container{
         width: 90%;
         justify-items: left;
+        margin-top: 0px;
     }
     .bmi-intro{
+        margin-top: 0px;
         margin-bottom: 20px;
         width: 90%;
     }
