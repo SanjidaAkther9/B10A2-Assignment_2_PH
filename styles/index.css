@@ -42,21 +42,16 @@ body{
     font-weight: 600px;
     color: rgb(255, 255, 255);
 }
-
 .margin-auto{
     margin-left: auto;
     margin-right: auto;
-
 }
-
 .col-red{
-    color: rgb(230, 83, 60);;
+    color: rgb(230, 83, 60);
 }
-
 .col-ash{
     color: rgba(255, 255, 255, 0.5);
 }
-
 
 /* ---------- Header section ---------- */
 
@@ -75,9 +70,8 @@ body{
 }
 
 .head-title-style{
-    font-size: 2.25rem ;
+    font-size: 3.25rem ;
     font-weight: 600;
-    
 }
 
 nav ul{
@@ -86,25 +80,26 @@ nav ul{
     gap: 47px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    padding: 5px;
-    
 }
+nav ul li{ 
+    padding: 10px;
+}
+
 nav > ul > li  a{
     text-decoration: none;
-    
     color: rgb(255, 255, 255);
     font-size: 1.125rem ;
     font-weight: 800;
 }
-
-nav li:hover{
-    display: block;
-    border-radius: 40px;
-    background: rgb(230, 83, 60);
+nav > ul >li img{
+    display: none;
 }
 
-
-
+nav li:hover{
+    /* display: block; */
+    border-radius: 20px;
+    background: rgb(230, 83, 60);
+}
 /* Header Body  */
 
 .header-join-down{
@@ -153,30 +148,33 @@ nav li:hover{
     display: grid;
 } */
 
+.header-img-grid{
+    position: relative;
+}
 .header-img-grid img{
-    margin-top: 0%;
-    
+    margin-top: 0%; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-img-1{
-    margin-top: -1163px;
-    margin-right: 20px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(30px);
     background: rgba(255, 255, 255, 0.1);
     width: 12rem;
     height: 6.125rem;
     font-size: 0.8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+    right: -20%;
 }
 
 .header-img-2{
-    margin-bottom: -63px;
-    margin-left: -113px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -187,10 +185,11 @@ nav li:hover{
     font-size: 0.8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 15%;
+    z-index: 1;
+    left: -15%;
 }
-
-
-
 
 /* ------- Change Your Habits Section -------- */
 .change-div-container{
@@ -512,11 +511,14 @@ td{
     margin-bottom: 39px;
 }
 
-.get-ul ul li {
+.get-ul ul li{
+    margin-bottom: 20px;
+}
+.get-ul ul li a{
+    text-decoration: none;
     font-size: 1.4375rem;
     font-weight: 400px;
     color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 20px;
 }
 hr{
     width: 1060px;

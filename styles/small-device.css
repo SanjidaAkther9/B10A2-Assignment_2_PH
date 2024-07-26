@@ -2,37 +2,29 @@
 
 @media  screen and (max-width: 576px) {
 
-    /* .body{
-        width: 100%
-    } */
-
     .head-nav-flex{
         display: flex;
         flex-direction: column;
         gap: 5px;
         justify-content: center;
-        padding-top: 30px;
-        width: 90%;
+        width: 80%;
+        margin-bottom: 30px;
     }
-
     nav {
-        visibility: hidden;
+        display: none;
     }
-
     .header-body{
         display: flex;
         flex-direction: column;
-        gap: 10px;
-        width: 100%;
+        gap: 0px;
+        width: 90%;
     }
-
     .header-left{
         width: 90%;
     }
     .habit-img-div{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
-        align-items: center;
         margin-left: auto;
         margin-right: auto;
     }
@@ -86,6 +78,9 @@
     .bmi-intro{
         margin-bottom: 20px;
         width: 90%;
+    }
+    .bmi-table{
+        justify-content: left;
     }
 
     .bmi-chart-container{
@@ -141,7 +136,7 @@
         margin-top: 20px ;
     }
     hr{
-        width: 80%;
+        width: 90%;
     }
     
     
