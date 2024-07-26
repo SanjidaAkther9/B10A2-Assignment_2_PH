@@ -63,7 +63,7 @@
      .run-div-container{
         flex-direction: column;
         gap: 10px;
-        width: 100%;
+        width: 90%;
     }
     .run-left{
         padding: 41px 20px 20px 30px;
