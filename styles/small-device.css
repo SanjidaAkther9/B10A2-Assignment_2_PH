@@ -32,6 +32,18 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .header-img-1{
+        top: 12%;
+        right: 5%;
+        width: 8rem;
+        height: 5.125rem;
+    }
+    .header-img-2{
+        bottom: 35%;
+        right: 45%;
+        width: 10rem;
+        font-size: 0.5rem;
+    }
 
     /* ===== Change Habits ======  */
 
