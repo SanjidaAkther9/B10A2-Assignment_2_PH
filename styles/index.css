@@ -523,6 +523,7 @@ td{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
+    background-position:center ;
 }
 .team-5{
     background-image: url("../images/trainer5.png");
