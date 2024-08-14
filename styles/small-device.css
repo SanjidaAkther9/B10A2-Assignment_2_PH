@@ -45,11 +45,22 @@
         font-size: 0.5rem;
     }
     .header-join-down{
-        width: 80%;
+        width: 90%;
         gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .j-n-res{
+        padding: 16px 20px;
     }
     .btn-down{
         padding: 16px 20px;
+    }
+    .header-img-grid{
+        width: 80%;
+    }
+    .header-img-grid img{
+        width: 90%;
     }
 
     /* ===== Change Habits ======  */
@@ -90,6 +101,7 @@
     .run-img img{
         width: 100%;
         margin-left: 10px;
+        object-fit: cover;
     }
 
     /* ======== Offered Services ===========  */
